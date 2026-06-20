@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>дз 20</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <script src="javaskript.js"></script>
+  <h1>Галерея зображень</h1>
+  <p>Використайте клавіші <strong>ArrowLeft</strong> / <strong>ArrowRight</strong> для переходу між зображеннями.</p>
+  <ul class="gallery" tabindex="0">
+    <li>
+      <img class="image" src="../../мопсс.jpg" alt="" />
+    </li>
+    <li>
+      <img class="image" src="../../мопсс.jpg" alt="" />
+    </li>
+    <li>
+      <img class="image" src="../../мопсс.jpg" alt="" />
+    </li>
+    <li>
+      <img class="image" src="../../мопсс.jpg" alt="" />
+    </li>
+    <li>
+      <img class="image" src="../../мопсс.jpg" alt="" />
+    </li>
+    <li>
+      <img class="image" src="../../мопсс.jpg" alt="" />
+    </li>
+  </ul>
+
+  <div class="full-image-container" id="fullImageContainer">
+    <img class="full-image" id="fullImage" src="" alt="Велике зображення" />
+  </div>
+
+  <section class="box-section">
+    <h1>Генератор прямокутників</h1>
+    <div id="controls">
+      <input type="number" min="0" max="100" step="1" id="box-count" placeholder="Кількість елементів" />
+      <button type="button" data-action="render">Створити</button>
+      <button type="button" data-action="destroy">Очистити</button>
+    </div>
+    <div id="boxes"></div>
+  </section>
+
+</body>
+</html>
